@@ -2,7 +2,7 @@
 
 This project proposes the solution for the parking system problems with the help of Arduino and IR Sensors.
 
-Roles & Responsibilities:
+Process:
 
 • The project consists of 4 IR sensor which represents 4 empty slots
 
