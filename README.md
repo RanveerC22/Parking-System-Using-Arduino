@@ -1,9 +1,34 @@
-# Parking-System-Using-Arduino
+# Parking System Using Arduino
 
-This project proposes the solution for the parking system problems with the help of Arduino and IR Sensors.
+This project provides an automated parking management system using Arduino and IR sensors.  
+It controls entry access based on real-time slot availability.
 
-Process:
+---
 
-• The project consists of 4 IR sensor which represents 4 empty slots
+## Project Overview
+- The system uses Arduino to monitor parking slots.
+- Four IR sensors are installed, each representing one parking slot.
+- A servo motor is used at the entry gate.
+- The entry gate opens only if at least one slot is empty.
+- When all slots are full, the servo motor prevents entry until a slot becomes free.
 
-• Used servo motor at the entry point, which opens only when at least 1 empty slot is available. When all slots are full, servo motor will not let any other car to enter into the parking zone and will wait for the slots to get empty (i.e wait untill previous cars exit).
+---
+
+## Features
+- Real-time slot detection using IR sensors.
+- Automated entry control using a servo motor.
+- Simple and cost-effective parking management solution.
+- Fully implemented through Arduino.
+
+---
+
+## Hardware Used
+- Arduino board
+- 4 × IR sensors
+- Servo motor
+- Jumper wires and connecting components
+
+---
+
+## Summary
+A smart parking system that detects slot availability with IR sensors and automatically controls the entry gate using a servo motor.
